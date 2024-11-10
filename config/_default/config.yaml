@@ -1,0 +1,23 @@
+params:
+  firstName: Coline
+  lastName: Metta-Versmessen
+
+  description: PhD student at Dauphine, PSL university, Climate Economics Chair, EDF R&D
+
+  email: "c.mettaversmessen@gmail.com"
+  linkedin: "https://www.linkedin.com/in/coline-metta-versmessen/"
+
+menus:
+  main:
+    - name: Scientific Production
+      url: /papers/
+      weight: 1
+    - name: Scientific Events
+      url: /events/
+      weight: 2
+    - name: Teaching
+      url: /teaching/
+      weight: 3
+    - name: Curriculum Vitae
+      url: /cv.pdf
+      weight: 4
