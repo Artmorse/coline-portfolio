@@ -1,4 +1,4 @@
-{{ $styles := resources.Get "scss/style.scss" | resources.ToCSS }}
+{{ $styles := resources.Get "scss/style.scss" | css.Sass }}
 
 <!DOCTYPE html>
 <html lang="en">
