@@ -1,9 +1,9 @@
 {{ $name :=  printf "%s %s" .Site.Params.firstName .Site.Params.lastName }}
 
-<header class="bg-gray-800 text-white py-4">
-    <div class="container mx-auto flex items-center justify-between px-4">
+<header class="bg-gray-800 text-white px-4 mx-auto">
+    <nav class="navbar">
         
-        <div class="flex items-center space-x-4">
+        <div class="navbar-left">
             
             <a class="whitespace-nowrap font-bold no-underline" href="{{ .Site.BaseURL }}">{{ $name }}</a>
 
@@ -16,21 +16,19 @@
             </a>
         </div>
 
-        <nav class="space-x-4">
-            <ul class="flex flex-row md:ml-auto md:mt-0 mt-4">
-                <li class="md:w-fit overflow-auto">
-                    <ul class="flex flex-row flex-nowrap space-x-4">
-                        {{ $currentPage := . }}
-                        {{ range .Site.Menus.main }}
-                            <li>
-                                <a href="{{ safeURL .URL }}" {{ if (or (strings.HasPrefix .URL "http") (strings.HasSuffix .URL ".pdf")) }} target="_blank" rel="external nofollow noopener"{{ end }} class="whitespace-nowrap no-underline {{ if eq $currentPage.RelPermalink .URL }}text-theme{{ end }}">
-                                    {{ .Name }}
-                                </a>
-                            </li>
-                        {{ end }}
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <i class="fa-solid fa-bars" id="burger-icon"></i>
+
+        <div class="navbar-right">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+                <a href="{{ safeURL .URL }}" {{ if (or (strings.HasPrefix .URL "http") (strings.HasSuffix .URL ".pdf")) }} target="_blank" rel="external nofollow noopener"{{ end }} class="whitespace-nowrap no-underline {{ if eq $currentPage.RelPermalink .URL }}text-theme{{ end }}">
+                    {{ .Name }}
+                </a>
+            {{ end }}
+        </div>
     </div>
+
+    {{ $navbarJs := resources.Get "js/navbar.js" | minify | fingerprint }}
+    <script src="{{ $navbarJs.Permalink }}"></script>
+
 </header>
