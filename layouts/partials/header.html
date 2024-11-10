@@ -29,6 +29,6 @@
     </div>
 
     {{ $navbarJs := resources.Get "js/navbar.js" | minify | fingerprint }}
-    <script src="{{ $navbarJs.Permalink }}"></script>
+    <script src="{{ $navbarJs.RelPermalink }}"></script>
 
 </header>
