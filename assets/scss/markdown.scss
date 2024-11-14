@@ -1,26 +1,34 @@
 // define the markdown style
-.markdown li {
-    list-style-type: disc;
-}
-.markdown a {
-    text-decoration-style: solid;
-    text-decoration-line: underline;
-    color: blue;
-}
-.markdown tr {
-    border-bottom: 1px solid #eee;
-}
-.markdown td {
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
-    padding-right: 1rem;
-}
-.markdown td:first-child {
-    white-space:nowrap;
-}
+.markdown {
+
+    li {
+        list-style-type: disc;
+    }
+    a {
+        text-decoration-style: solid;
+        text-decoration-line: none;
+        color: blue;
+    }
+    tr {
+        border-bottom: 1px solid #eee;
+    }
+    td {
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        padding-right: 1rem;
+    }
+    td:first-child {
+        white-space:nowrap;
+    }
+    ul {
+        // pl-5
+        padding-left: 1.25rem; /* 20px */
+    }
+    
+} 
 
 // used for the homepage
-#news h1 {
+#news {
     // font-bold
     font-weight: 700;
     // text-xl
@@ -28,8 +36,4 @@
     line-height: 1.75rem; /* 28px */
     // pt-6
     padding-top: 1.5rem; /* 12px */
-}
-#news ul {
-    // pl-5
-    padding-left: 1.25rem; /* 20px */
 }
