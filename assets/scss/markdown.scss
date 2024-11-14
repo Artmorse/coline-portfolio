@@ -18,3 +18,18 @@
 .markdown td:first-child {
     white-space:nowrap;
 }
+
+// used for the homepage
+h1 {
+    // font-bold
+    font-weight: 700;
+    // text-xl
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.75rem; /* 28px */
+    // pt-6
+    padding-top: 1.5rem; /* 12px */
+}
+ul {
+    // pl-5
+    padding-left: 1.25rem; /* 20px */
+}
