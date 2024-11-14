@@ -1,7 +1,7 @@
 ---
 title: Presentations
 ---
-## 2024
+**2024**
 
 |                                               |                       |
 |-----------------------------------------------|-----------------------|
@@ -9,7 +9,7 @@ title: Presentations
 | 29th Annual Conference, *EAERE*               | Leuven, Belgium       |
 | 66th Session of PSL Mines/Dauphine Seminar    | Paris, France         |
 
-## 2023
+**2023**
 
 |                                               |                       |
 |-----------------------------------------------|-----------------------|
@@ -20,7 +20,7 @@ title: Presentations
 | Journées de Microéconomie Appliquée, *JMA*                 | Strasbourg, France|
 | Belgian Environmental Economics Day, *BEED*                | Brussels, Belgium |
 
-## 2022
+**2022**
 
 |                                               |                       |
 |-----------------------------------------------|-----------------------|
