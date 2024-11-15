@@ -4,7 +4,7 @@
 
         <div class="w-full lg:w-1/3 justify-items-center">
             {{ with resources.Get (printf "img/%s" .Params.profilePicture) }}
-            <img src="{{ .RelPermalink }}" alt="Coline's photo" class="rounded-lg shadow-lg max-w-72">
+            <img src="{{ .RelPermalink }}" alt="Coline's photo" class="rounded-lg shadow-lg max-w-64">
             {{ end }}
         </div>
 

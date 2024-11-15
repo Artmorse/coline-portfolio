@@ -21,3 +21,9 @@ menus:
     - name: Curriculum Vitae
       url: /cv.pdf
       weight: 4
+
+# allows to render `<br/>` on the Teaching page
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
