@@ -8,5 +8,5 @@ profilePicture: profile.PNG
 
 ### Recent and Upcoming Talks
 
-- FSR Climate Annual Conference 2024 (November, Florence, Italy)
-- FAERE Annual Conference 2024 (September, Strasbourg, France)
+- 11th PhD Day, "Public Policy Analysis", Le Havre Normandie University (March 2025, Le Havre, France)
+- Public Policy Seminar, LEM (February 2025, Lille, France)
