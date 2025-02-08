@@ -49,10 +49,10 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json ]] && npm ci || true"
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
       - name: Build Tailwind CSS
-        run: "npx @tailwindcss/cli -i ./assets/css/tailwind.css -o ./static/css/style.css"
+        run: "npx tailwindcss -i ./assets/css/tailwind.css -o ./static/css/style.css"
 
       - name: Build with Hugo
         env:
