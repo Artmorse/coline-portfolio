@@ -5,7 +5,7 @@
 ```bash
 npm install
 
-npx tailwindcss -i ./assets/css/tailwind.css -o ./static/css/style.css
+npx @tailwindcss/cli -i ./assets/css/tailwind.css -o ./static/css/style.css
 hugo serve
 ```
 
