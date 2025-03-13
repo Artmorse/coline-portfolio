@@ -14,6 +14,12 @@
             <a href="{{ .Site.Params.linkedin }}" target="_blank" class="hover:text-blue-400" aria-label="{{ $name }} LinkedIn Profile">
                 <i class="fa-brands fa-linkedin h-6"></i>
             </a>
+            
+            <a href="{{ .Site.Params.orcid }}" target="_blank" class="hover:text-blue-400" aria-label="{{ $name }} ORCID Profile">
+                {{ with resources.Get "img/orcid-logo.PNG" }}
+                <img src="{{ .RelPermalink }}" class="h-6">
+                {{ end }}
+            </a>
         </div>
 
         <i class="fa-solid fa-bars" id="burger-icon"></i>
