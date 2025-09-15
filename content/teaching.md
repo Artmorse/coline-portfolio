@@ -7,7 +7,7 @@ title: Teaching
 | **2025-2026**                   |                                                                                                                                                                |
 |Lille University<br/>*Coordinators: C. Oden, A. Kingsada, J. Benistant*| **Teaching Assistant** - Introduction to Economics, Microeconomics, Statistics<br/>Undergraduate, Year 1, Economic and Social Administration (AES)|
 | **2025**                        |                                                                                                                                                                |
-| Paris Dauphine University - PSL<br/>*Coordinator: Prof. A. Creti* | **Lecturer** - Climate Data for Econometrics<br/>PhD level |
+| Paris Dauphine University - PSL<br/>*Coordinator: Prof. A. Creti* | **Lecturer** - Climate Data for Econometrics<br/>PhD in Economics level |
 | **2023-2025**                   |                                                                                                                                                                |
 | CentraleSupélec<br/>*Coordinator: Prof. O. Massol*| **Guest Lecturer** - Circular Economics, International Carbon Regulations<br/>Undergraduate, Year 3, Global Engineering               |
 | **2022–2023**                   |                                                                                                                                                                |
