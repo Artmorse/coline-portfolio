@@ -4,6 +4,10 @@ title: Presentations
 
 |                                                                    |                    |
 |--------------------------------------------------------------------|--------------------|
+| **2025**                                                           |                    |
+| 46th International Conference, *IAEE*                              | Paris, France      |
+| 73st Annual Congress, *AFSE*                                       | Saclay, France     |
+| 11th PhD Day, ''Public Policy Analysis"                            | Le Havre University, France|
 | **2024**                                                           |                    |
 | 11th Annual Conference, *FAERE*                                    | Strasbourg, France |
 | 29th Annual Conference, *EAERE*                                    | Leuven, Belgium    |
